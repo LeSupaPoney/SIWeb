@@ -1,17 +1,17 @@
 <?php
 	use Doctrine\ORM\Tools\Setup;
 	use Doctrine\ORM\EntityManager;
-	date_default_timezone_set('America/Lima');
+	date_default_timezone_set('Europe/Berlin');
 	require_once "vendor/autoload.php";
 	$isDevMode = true;
 	$config = Setup::createYAMLMetadataConfiguration(array(__DIR__ . "/config/yaml"), $isDevMode);
 	$conn = array(
-	'host' => 'dpg-clvf4ida73kc73bp3kfg-a.oregon-postgres.render.com',
+	'host' => 'dpg-cm23heun7f5s73erf0c0-a.frankfurt-postgres.render.com',
 
 	'driver' => 'pdo_pgsql',
-	'user' => 'cnam_db_akkt_user',
-	'password' => 'I8TW2jVgiSyQDguxH8De6kWjgJ6VjoR4',
-	'dbname' => 'cnam_db_akkt',
+	'user' => 'cnam_db_wclc_user',
+	'password' => 'UEuZEEo8Oo2kWP3l4TbYPi3W9Ihgi1jb',
+	'dbname' => 'cnam_db_wclc',
 	'port' => '5432'
 	);
 
